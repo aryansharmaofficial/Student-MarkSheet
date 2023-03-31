@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marks Sheet</title>
+  <head>
+    <link rel="stylesheet" href="Basic.css">
+    <link rel="stylesheet" href="Basic.css">
+</head>
+<body>
+<form id="marksheet-form">
+  <label for="name"><b>Name:</b> </label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="rollno"><b> Roll Number:</b></label>
+  <input type="text" id="rollno" name="rollno" required>
+
+  <label for="subject1"><b> Subject 1:</b></label>
+  <input type="number" id="subject1" name="subject1" required>
+
+  <label for="subject2"><b>Subject 2:</b></label>
+  <input type="number" id="subject2" name="subject2" required>
+
+  <label for="subject3"><b> Subject 3:</b></label>
+  <input type="number" id="subject3" name="subject3" required>
+
+  <button type="submit"><b>Generate Marksheet</b></button>
+</form>
+
+<div id="marksheet"></div>
+<script src="Basic.js"></script>
+</body>
+</html>

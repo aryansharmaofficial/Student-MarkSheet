@@ -1,0 +1,47 @@
+/* *{
+  background-color: #ccc;
+} */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #00ff1a;
+    color: #030303;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+  
+  button:hover {
+    background-color: #f93200;
+    
+  }
+  
+  #marksheet {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
